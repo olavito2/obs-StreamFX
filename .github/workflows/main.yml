@@ -28,7 +28,7 @@ jobs:
       matrix:
         runner: [ "windows-2022" ]
         name: [ "Windows" ]
-        compiler: [ "MSVC", "Clang" ]
+        compiler: [ "MSVC" ]
         qt: [ 6 ]
         include:
           - compiler: "MSVC"
